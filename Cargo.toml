@@ -9,7 +9,7 @@ edition = "2018"
 [dependencies]
 anyhow = "1.0"
 chrono = "0.4"
-md5 = "0.7.0"
 reqwest = { version = "0.10", features = ["json","cookies"] }
-serde_json = "1.0"
+serde = { version = "1.0"}
+serde_json = { version = "1.0"}
 tokio = { version = "0.2", features = ["full"] }
